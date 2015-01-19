@@ -47,12 +47,12 @@ class AgeAfter10Years
             if (monthValueToInt < birthMonthInt)            //checking if user had a birthday already 
             {           
                 Console.WriteLine("You are now {0}. You haven't had a birthday this year yet. You may plan a big party", yearValueToInt - birthYearInt-1);
-                Console.WriteLine("In 10 years you will be {0}", (yearValueToInt - birthYearInt) + 10);
+                Console.WriteLine("In 10 years you will be {0}", (yearValueToInt - birthYearInt) + 10 - 1 );
             }
             else
             {
-                Console.WriteLine("You are now {0}. You had a borthday this year. Hope you liked your gifts.", yearValueToInt - birthYearInt);
-                Console.WriteLine("In 10 years you will be {0}", (yearValueToInt - birthYearInt) + 10 + 10);
+                Console.WriteLine("You are now {0}. You had a birthday this year. Hope you liked your gifts.", yearValueToInt - birthYearInt);
+                Console.WriteLine("In 10 years you will be {0}", (yearValueToInt - birthYearInt) + 10);
             }
         }
     }
