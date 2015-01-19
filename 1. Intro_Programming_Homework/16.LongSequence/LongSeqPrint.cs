@@ -13,7 +13,7 @@ class LongSeqPrint
     static void Main()
     {
         int firstSeqMemeber;
-        for (firstSeqMemeber = 2; firstSeqMemeber < 1000; firstSeqMemeber++)   
+        for (firstSeqMemeber = 2; firstSeqMemeber < 1003; firstSeqMemeber++)   
         {
             if (firstSeqMemeber % 2 == 0)  // if number is even
             {
